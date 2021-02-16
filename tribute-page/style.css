@@ -3,8 +3,26 @@ body {
     background-color: lightgray;
     text-align:center;
   }
-  
-  #title {
-      font-size: 4rem;
-      margin-bottom: 0;
-  }
+
+#title {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+#img-div {
+    background-color: white;
+}
+
+#image {
+    width: 90%;
+    padding: 15px;
+}
+
+#img-caption {
+    padding-bottom: 15px;
+}
+
+p {
+    text-align: left;
+    text-justify: auto;
+}
