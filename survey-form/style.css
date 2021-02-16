@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-family: monospace;
+}
+
+#title {
+    color: purple;
+}
+
+.questions {
+    background-color: purple;
+    color: white;
+    width: 100%;
+}
