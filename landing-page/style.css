@@ -1,3 +1,7 @@
+body {
+    font-family: Arial;
+}
+
 header {
     margin: auto;
     text-align: center;
@@ -7,3 +11,21 @@ header {
     width: 100%;
     max-width: 600px;
 }
+
+#nav-bar {
+    margin-top: 25px;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
+.page-section {
+    text-align: center;
+}
+
