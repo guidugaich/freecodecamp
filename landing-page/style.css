@@ -1,0 +1,9 @@
+header {
+    margin: auto;
+    text-align: center;
+}
+
+#header-img {
+    width: 100%;
+    max-width: 600px;
+}
