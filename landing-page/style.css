@@ -1,34 +1,36 @@
 body {
     font-family: Arial;
+    margin: 0;
 }
 
-header {
-    margin: auto;
+.main {
     text-align: center;
+    width: 90%;
+    margin: auto;
 }
 
 #header-img {
-    width: 100%;
-    max-width: 600px;
+   display: block;
+   max-width: 600px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 50px;
 }
 
 #nav-bar {
-    margin-top: 25px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: darkgray;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 10px;
+    padding: 15px;
 }
 
 .nav-link:hover {
     font-weight: bold;
-}
-
-.page-section {
-    text-align: center;
-    width: 80%;
-    margin: auto;
 }
 
 #form {
@@ -36,3 +38,6 @@ header {
     text-align: center;
 }
 
+@media (max-width: 100px) {
+    font-family: Helvetica;
+}
